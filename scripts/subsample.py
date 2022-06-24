@@ -4,7 +4,7 @@ from shapely.geometry import box, Point, Polygon
 
 
 def get_points_from_df(df: gpd.GeoDataFrame):
-
+# x, y, z coordinate
     x = df.geometry.x
     y = df.geometry.y
     z = df.elevation
