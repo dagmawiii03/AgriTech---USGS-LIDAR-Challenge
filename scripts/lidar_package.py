@@ -1,5 +1,5 @@
 from fetch_lidar import Lidar_Data_Fetch
-from boundaries import Boundaries
+from boundary import Boundaries
 from shapely.geometry import box, Point, Polygon
 from elevation import ElevationExtractor
 import geopandas as gpd
@@ -13,7 +13,7 @@ import numpy as np
 import subsample
 
 
-from boundaries import Boundaries
+from boundary import Boundaries
 
 
 PUBLIC_DATA_URL = "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/"
