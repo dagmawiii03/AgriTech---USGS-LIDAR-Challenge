@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.8.1" />
-<title>AgriTech---USGS-LIDAR-Challenge API documentation</title>
+<title>AgriTech---USGS-LIDAR-Challenge.ErrorMsgs API documentation</title>
 <meta name="description" content="" />
 <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
@@ -17,49 +17,58 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Package <code>AgriTech---USGS-LIDAR-Challenge</code></h1>
+<h1 class="title">Module <code>AgriTech---USGS-LIDAR-Challenge.ErrorMsgs</code></h1>
 </header>
 <section id="section-intro">
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">err_obj = {&#34;FETCH_JSON_FILE_NOT_FOUND&#34;: &#34;fetch json file not found&#34;}
+
+
+def getErrorMsgs(err_code: str) -&gt; str:
+    return err_obj[str]
+
+
+def getErrorObj() -&gt; dict:
+    return err_obj</code></pre>
+</details>
 </section>
 <section>
-<h2 class="section-title" id="header-submodules">Sub-modules</h2>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt><code class="name"><a title="AgriTech---USGS-LIDAR-Challenge.ErrorMsgs" href="ErrorMsgs.html">AgriTech---USGS-LIDAR-Challenge.ErrorMsgs</a></code></dt>
+<dt id="AgriTech---USGS-LIDAR-Challenge.ErrorMsgs.getErrorMsgs"><code class="name flex">
+<span>def <span class="ident">getErrorMsgs</span></span>(<span>err_code: str) -> str</span>
+</code></dt>
 <dd>
 <div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def getErrorMsgs(err_code: str) -&gt; str:
+    return err_obj[str]</code></pre>
+</details>
 </dd>
-<dt><code class="name"><a title="AgriTech---USGS-LIDAR-Challenge.lidar_package" href="lidar_package.html">AgriTech---USGS-LIDAR-Challenge.lidar_package</a></code></dt>
+<dt id="AgriTech---USGS-LIDAR-Challenge.ErrorMsgs.getErrorObj"><code class="name flex">
+<span>def <span class="ident">getErrorObj</span></span>(<span>) -> dict</span>
+</code></dt>
 <dd>
 <div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="AgriTech---USGS-LIDAR-Challenge.boundary" href="boundary.html">AgriTech---USGS-LIDAR-Challenge.boundary</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="AgriTech---USGS-LIDAR-Challenge.elevation" href="elevation.html">AgriTech---USGS-LIDAR-Challenge.elevation</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="AgriTech---USGS-LIDAR-Challenge.fetch_lidar" href="fetch_lidar.html">AgriTech---USGS-LIDAR-Challenge.fetch_lidar</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="AgriTech---USGS-LIDAR-Challenge.scripts" href="scripts/index.html">AgriTech---USGS-LIDAR-Challenge.scripts</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dt><code class="name"><a title="AgriTech---USGS-LIDAR-Challenge.subsample" href="subsample.html">AgriTech---USGS-LIDAR-Challenge.subsample</a></code></dt>
-<dd>
-<div class="desc"></div>
-</dd>
-<dd>
-<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def getErrorObj() -&gt; dict:
+    return err_obj</code></pre>
+</details>
 </dd>
 </dl>
-</section>
-<section>
-</section>
-<section>
 </section>
 <section>
 </section>
@@ -70,15 +79,15 @@
 <ul></ul>
 </div>
 <ul id="index">
-<li><h3><a href="#header-submodules">Sub-modules</a></h3>
+<li><h3>Super-module</h3>
 <ul>
-<li><code><a title="AgriTech---USGS-LIDAR-Challenge.ErrorMsgs" href="ErrorMsgs.html">AgriTech---USGS-LIDAR-Challenge.ErrorMsgs</a></code></li>
-<li><code><a title="AgriTech---USGS-LIDAR-Challenge.lidar_package" href="lidar_package.html">AgriTech---USGS-LIDAR-Challenge.lidar_package</a></code></li>
-<li><code><a title="AgriTech---USGS-LIDAR-Challenge.boundary" href="boundary.html">AgriTech---USGS-LIDAR-Challenge.boundary</a></code></li>
-<li><code><a title="AgriTech---USGS-LIDAR-Challenge.elevation_extractor" href="elevation.html">AgriTech---USGS-LIDAR-Challenge.elevation</a></code></li>
-<li><code><a title="AgriTech---USGS-LIDAR-Challenge.lidar_fetch_data" href="fetch_lidar.html">AgriTech---USGS-LIDAR-Challenge.fetch_lidar</a></code></li>
-<li><code><a title="AgriTech---USGS-LIDAR-Challenge.scripts" href="scripts/index.html">AgriTech---USGS-LIDAR-Challenge.scripts</a></code></li>
-<li><code><a title="AgriTech---USGS-LIDAR-Challenge.subsample" href="subsample.html">AgriTech---USGS-LIDAR-Challenge.subsample</a></code></li>
+<li><code><a title="AgriTech---USGS-LIDAR-Challenge" href="index.html">AgriTech---USGS-LIDAR-Challenge</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="AgriTech---USGS-LIDAR-Challenge.ErrorMsgs.getErrorMsgs" href="#AgriTech---USGS-LIDAR-Challenge.ErrorMsgs.getErrorMsgs">getErrorMsgs</a></code></li>
+<li><code><a title="AgriTech---USGS-LIDAR-Challenge.ErrorMsgs.getErrorObj" href="#AgriTech---USGS-LIDAR-Challenge.ErrorMsgs.getErrorObj">getErrorObj</a></code></li>
 </ul>
 </li>
 </ul>
