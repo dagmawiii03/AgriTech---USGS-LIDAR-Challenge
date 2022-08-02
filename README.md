@@ -7,6 +7,7 @@ Table of Contents
 - [installation](##Installation-guide)
 - [Notebooks](##notebooks)
 - [scripts](##scripts)
+- [Documentation](##Documentation)
 
 ## Overview
 
@@ -41,12 +42,21 @@ pip install -r requirements.txt
 
 ```
 
-
 ## Notebooks
 
-```Notebooks``` : various notebooks found
+```Notebooks``` :  notebook for simple visulatization is  found
 
 ## scripts
 
 ```scripts``` : modularized python scripts are found
 
+## Documentation
+
+you can see the documentation here https://datapkg.herokuapp.com/  OR
+
+
+you can access the documentation in the following path of this repostiory
+```
+AgriTech---USGS-LIDAR-Challenge/documentations//index.html
+
+```
